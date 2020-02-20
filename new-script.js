@@ -33,6 +33,6 @@ xhr.addEventListener("readystatechange", function () {
   }
 });
 
-xhr.open("GET", "https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand;)
+xhr.open("GET", "https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand;")
 
 xhr.send(data);
