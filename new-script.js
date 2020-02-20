@@ -1,6 +1,6 @@
 ////////////////Random Chuck Norris Fact//////////
 
-$(function(){  
+/*$(function(){  
 
   var url = "https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand";
   
@@ -21,4 +21,18 @@ $(function(){
 
   getJoke();
 
+});*/
+
+var data = null;
+var xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener("readystatechange", function () {
+  if (this.readyState === 4) {
+    console.log(JSON.parse(this.responseText));
+  }
 });
+
+xhr.open("GET", "https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand;
+
+xhr.send(data);
