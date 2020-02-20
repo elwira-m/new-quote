@@ -7,7 +7,7 @@ $(function(){
 	
        
     function getQuote() {
-        $.getJSON(prefix + quoteUrl, createTweet);
+        $.getJSON(quoteUrl, createTweet);
         $.ajaxSetup({ cache: false });
     }	
 	
