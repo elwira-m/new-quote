@@ -1,0 +1,77 @@
+/*************************** Random quote machine*************#484c51****************/
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-image: url('img/paper2X.png'); /*from: http://subtlepatterns.com*/
+	color: #594540;
+}
+
+main { 
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 80px;
+}
+
+.box {
+	max-width: 900px;
+	margin: 0 auto;
+	margin-top: 100px;	
+}
+
+.quote {
+	font-style: italic;
+	text-align: center;
+}
+
+.author {
+	text-align: right;
+}
+
+.trigger_box {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 150px;
+	position: absolute;
+	top: 300px;
+	left: calc(50% - 100px);	
+}
+
+.trigger {
+	margin-bottom: 80px;
+	cursor: pointer;
+	font-size: 120%;
+	width: 200px;
+	height: 35px;
+	border-radius: 8px;
+	background-color: #594540;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.trigger:hover {
+	font-size: 140%;
+	color: #d2d2d2;	
+}
+
+.tweet {
+	display: block;
+	text-decoration: none;
+	color: #d2d2d2;
+	font-size: 110%;
+	width: 200px;
+	height: 35px;
+	background-color: #00acee;
+	line-height: 35px;
+	border-radius: 6px;
+}
+
+.tweet:hover {
+	color: #00acee;
+	font-size: 130%;
+	background: none;
+}
+
+
