@@ -66,8 +66,8 @@ header>nav ul>li>a:hover {
 /***************************************HERO****************************************/
 
 .hero {
-	background-image: url(img/ruud-luijten-unsplash1.jpg); 
-	/*background-image: url('img/lake-and trees.jpg');*/
+	/*background-image: url(img/ruud-luijten-unsplash1.jpg);*/ 
+	background-image: url('img/lake-trees.jpg');
 	/* background-size: cover; */
 	height: 100vh;
 	width: 100%;
