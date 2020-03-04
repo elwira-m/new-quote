@@ -339,7 +339,9 @@ hr {
 /**************************************MEDIA QUERIES********************************/
 
 @media (min-width: 1366px) and (max-width: 1920px) {
+	.hero {
 	background-image: url('img/mountains-sky.jpg');
+	}
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
